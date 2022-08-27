@@ -1,5 +1,5 @@
 hi clear
-" syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]"
+syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]
 
 highlight Operator guifg=#B43131 guibg=NONE gui=none
 

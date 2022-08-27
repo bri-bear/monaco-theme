@@ -1,22 +1,15 @@
-let g:colors_name='monaco-light'
 hi clear
-syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]
-
-highlight Operator guifg=#B43131 guibg=NONE gui=none
-
 if exists("syntax on")
-syntax reset
+      syntax reset
 endif
 
+let g:colors_name='monaco-light'
 set t_Co=256
-
-
-
-
-
 
 set termguicolors
 
+syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]
+highlight Operator guifg=#B43131 guibg=NONE gui=none
 " Define reusable colorvariables.
 let s:bg="#F7F7F7"
 let s:fg="#B43131"

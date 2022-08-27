@@ -1,4 +1,4 @@
-set g:colors_name = "monaco"
+let g:colors_name='monaco-light'
 hi clear
 syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]
 

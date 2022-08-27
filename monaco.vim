@@ -1,3 +1,4 @@
+set g:colors_name = "monaco"
 hi clear
 syntax match Operator "[-+&|<>=!\/~.,;:*%&^?()\[\]{}]
 
@@ -8,7 +9,7 @@ syntax reset
 endif
 
 set t_Co=256
-let g:colors_name = "monaco"
+
 
 
 
